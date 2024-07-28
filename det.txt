@@ -1,0 +1,34 @@
+
+create folder (componennts) hold all com in our application :anypiece resable
+step1 navbar 
+step2 bags folder = home , menu.
+step3 css
+app.css we will put all css that effects all bages, its common 
+step 4 when u clicl the 3do icon it must remove the logo (hidelink) 
+to determine if u want to show the link whe use state when ou minimize ur screen
+- import react add  add import React, { useState } from 'react';
+ and then buttome of the function navbar.
+we want to showw the logo so false give and give a name for the state inside[openlinks]
+  const [] =useState(false)
+
+
+
+
+
+
+notes
+1:import {Link} from 'react-router-dom'
+<Link to='/'>home</Link> wa sidii html oo nameka iyo linkiga isku daraysa
+2:app.css we will put all css that effects all bages, its common 
+
+question 
+1:route
+
+//this is icon link you can dowload from (Material Icons - Material UI) as npm
+import ReorderIcon from '@mui/icons-material/Reorder';
+
+--------------------------------------
+n3
+insted of putting evermenu every single item in the, menulist  we actutaly wtch 1.2 hour
+import {} '../components/helpers/MenuiList'
+then import actucal variabe
