@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from '../src/pages/Menu';
+import Contact from '../src/pages/Contact';
+import About from '../src/pages/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 //import css navbar 
 import '../src/styles/Navbar.css'; // Import CSS for Navbar
@@ -18,6 +20,8 @@ function App() {
         <Routes> {/* Use Routes instead of Switch */}
           <Route path='/' element={<Home />} /> {/* Use element prop for Route */}
           <Route path='/menu' element={<Menu />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
           {/* Add more routes as needed */}
           
         </Routes>
